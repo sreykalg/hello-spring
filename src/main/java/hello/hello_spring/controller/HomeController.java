@@ -28,6 +28,11 @@ public class HomeController {
 
     @GetMapping("/form")
     public String memberAddForm(){
+        //test1
+        //test2
+        //test3
+        //test4
+        //..
         return "memberAddForm";
 
     }
