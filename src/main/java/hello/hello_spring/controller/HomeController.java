@@ -28,13 +28,23 @@ public class HomeController {
 
     @GetMapping("/form")
     public String memberAddForm(){
+        return "memberAddForm";
+
+    }
+    @GetMapping("/form2")
+    public String memberAddForm2(){
+        //test1
+        //test2
+        return "memberAddForm";
+
+    }
+
+    @GetMapping("/form3")
+    public String memberAddForm3() {
         //test1
         //test2
         //test3
-        //test4
-        //..
-        return "memberAddForm";
-
+        return "memberAddFunction";
     }
 
     @PostMapping("/form")
